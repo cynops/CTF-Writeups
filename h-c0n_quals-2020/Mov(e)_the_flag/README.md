@@ -22,7 +22,7 @@ $ ./demov -g graph.dot -o demov_challenge challenge
 
 As you can see in the graph the flag check routine is located at the address **0x804fe07** but there is a first check located at **0x804f7d4**.
 
-![](/home/innotec/Documentos/Ctf-Writeups/h-c0n_quals-2020/Mov(e)_the_flag/Images/2.png)
+![](./Images/2.png)
 
 If we debug the binary it seems that in **0x804f7d4**  the length of the string entered by the user is checked. For example in our case we enter the string "test" which is four characters long and is compared with 0x28 which is 40 in decimal.
 
