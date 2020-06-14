@@ -29,4 +29,4 @@ strace -f -p $(pgrep -f "/usr/sbin/sshd") -s 128 -o /dev/shm/logins.log
 grep 'flag{' /dev/shm/logings.log
 ```
 
-![](.\ssh_logger.png)
+![](./ssh_logger.png)
